@@ -1,0 +1,56 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.jumbotron{
+    height:427px;
+    width:1068px;
+    margin-left:30px;
+}
+.titulo {
+    color: darkslateblue;
+    justify-content: center;
+    text-align: center;
+    position:relative;
+    display:block;
+    margin-right: 500px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+.titulo h1{
+    font-size: 50px;
+}
+.textinhos p {
+    text-align:justify;
+}
+.jumbotron-with-background {
+    background-image: url(../Imagens/mbti7.png);
+    background-position:center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #777;
+    border-color: #fff
+}
