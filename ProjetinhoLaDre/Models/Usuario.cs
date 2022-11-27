@@ -8,22 +8,18 @@ namespace ProjetinhoLaDre.Models
 {
     public class Usuario
     {
-        [Display(Name = "Nome do usuário")]
+        [Display(Name = "Nome")]
         [Required(ErrorMessage = "O nome é obrigatório")]
 
         public string NomeUsuario { get; set; }
 
-        [Display(Name = "Observação")]
-        [StringLength(50, MinimumLength = 5, ErrorMessage = "Insira de 5 a 50 caracteres")]
 
-        public string Observação { get; set; }
-
-        [Display(Name = "Idade do usuário")]
+        [Display(Name = "Idade")]
         [Range(18, 70, ErrorMessage = "Idade permitida entre 18 e 70")]
 
         public string Idade { get; set; }
 
-        [Display(Name = "Email Profissional")]
+        [Display(Name = "Email Pessoal")]
         [RegularExpression(@"\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*", ErrorMessage = "Email Inválido")]
 
         public string Email { get; set; }
